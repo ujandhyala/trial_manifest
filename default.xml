@@ -1,0 +1,14 @@
+<manifest>
+      <remote  name="aosp"
+               fetch="https://android.googlesource.com/"/>
+      <remote  name="pelotoncycle"
+               fetch="https://github.com/pelotoncycle/"/>
+    
+      <default revision="master"
+               remote="pelotoncycle"
+               sync-j="2" />
+    
+      <project path="aws-sdk-android" name="aws-sdk-android" />
+      <project path="facebook-android-sdk" name="facebook-android-sdk" />
+      <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator” remote=“aosp”/>
+</manifest>
