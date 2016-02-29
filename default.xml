@@ -12,7 +12,8 @@
            remote="pelotoncycle"
            sync-j="4" />
 
-  <project path="aws-sdk-android" name="aws-sdk-android" />
+  <project path="quartz-android" name="quartz-android" />
+  <!--project path="aws-sdk-android" name="aws-sdk-android" />
   <project path="facebook-android-sdk" name="facebook-android-sdk" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" /-->
 </manifest>
